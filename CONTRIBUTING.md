@@ -4,9 +4,11 @@ Thank you for thinking about contributing to WordPress' Gutenberg project! If yo
 
 As with all WordPress projects, we want to ensure a welcoming environment for everyone. With that in mind, all contributors are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-Before contributing, we encourage you to read our [Contributing Policy](CONTRIBUTING.md) (you're here already!) and our [Handbook](https://wordpress.org/gutenberg/handbook/). If you have any questions on any of these, please open an issue so we can help clarify them.
+Before contributing, we encourage you to review the [Contributors Handbook](https://wordpress.org/gutenberg/handbook/contributors/). If you have any questions, please ask, either in Slack or open an issue in Github so we can help clarify.
 
 All WordPress projects are [licensed under the GPLv2+](LICENSE.md), and all contributions to Gutenberg will be released under the GPLv2+ license. You maintain copyright over any contribution you make, and by submitting a pull request, you are agreeing to release that contribution under the GPLv2+ license.
+
+This document covers the technical details around setup, and submitting your contribution to the Gutenberg project.
 
 ## Getting Started
 
@@ -244,7 +246,7 @@ If you'd like to contribute to the design or front-end, feel free to contribute 
 
 Documentation is automatically synced from master to the [Gutenberg Documentation Website](https://wordpress.org/gutenberg/handbook/) every 15 minutes.
 
-To add a new documentation page, you'll have to create a Markdown file in the [docs](https://github.com/WordPress/gutenberg/tree/master/docs) folder and add an item to the [root-manifest.json](https://github.com/WordPress/gutenberg/blob/master/docs/root-manifest.json).
+To add a new documentation page, you create a Markdown file in the [docs](https://github.com/WordPress/gutenberg/tree/master/docs) folder and add an item to the [manifest.json](https://github.com/WordPress/gutenberg/blob/master/docs/manifest.json).
 
 ### `@wordpress/component`
 
